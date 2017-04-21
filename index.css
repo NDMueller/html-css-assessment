@@ -10,11 +10,13 @@ h1{
 	font-family: 'Coustard';
 	color: white;
 	text-shadow: 2px 2px black;
+	text-align: center;
 }
 h2{
 	font-family: 'Coustard';
 	color: white;
 	text-shadow: 2px 2px black;
+	text-align: center;
 }
 /*Main Page Nav*/
 nav ul{
