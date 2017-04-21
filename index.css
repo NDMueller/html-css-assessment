@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Coustard');
+
+
+body {
+	background-image: url('img/main-bg.jpeg');
+	background-size: cover;
+	height: 100vh;
+}
+h1{
+	font-family: 'Coustard';
+	color: white;
+	text-shadow: 2px 2px black;
+}
+h2{
+	font-family: 'Coustard';
+	color: white;
+	text-shadow: 2px 2px black;
+}
+/*Main Page Nav*/
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+ul li{
+	font-size: 20px;
+	list-style: none;
+}
+/*-------------Mobile Nav--------------------*/
+.mobile-header nav ul{
+	justify-content: space-around;
+}
+
+.hamburgerBox{
+	display: none;
+	flex:7.5;
+}
+
+.facebookBox{
+	display: none;
+	flex: .5;
+}
+
+.twitterBox {
+	display: none;
+	flex: .5;
+}
+
+.hamburger {
+	width: 60px;
+}
+
+.facebook {
+	width: 20px;
+}
+.twitter {
+	width: 20px
+}
+
+/* -----------Mobile Nav------------------------*/
+.portfolio-half {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 200px;
+	margin-top: 8%;
+}
+
+.your{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+}
+
+.person-port {
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+}
+
+.lower-half{
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
+}
+
+.lower-half .btn{
+	width: 80px;
+}
+
+@media(max-width: 656px ) {
+	.hamburgerBox{
+		display: flex;
+		flex:7.5;
+	}
+
+	.facebookBox{
+		display: flex;
+		flex: 1;
+	}
+
+	.twitterBox {
+		display: flex;
+		flex: 2;
+	}
+
+	.header{
+		display: none;
+	}
+}
